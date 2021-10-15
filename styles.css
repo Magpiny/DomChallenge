@@ -1,0 +1,158 @@
+.container{
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: purple;
+    height: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    color: white;
+    height: 15%;
+    padding: 1.25rem;
+}
+
+header>h3{
+    display: flex;
+    align-self: flex-end;
+    margin-right: 10px;
+}
+
+main {
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: wheat;
+    height: 70%;
+    padding: 3px;
+    opacity: 0.9;
+   
+}
+
+img{
+    border-radius: 50%;
+    border-color: aqua;
+    border-width: 3px;
+    border-style: double;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    clip-path: ellipse();
+    top: -30px;
+    bottom: 30px;
+    align-self: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: grey;
+    opacity: 0.9; 
+}
+
+label{
+    color: blue;
+    font-size: large;
+    align-self: auto;
+}
+input{
+    width: 50%;
+    padding: 0.6rem;
+    margin-bottom: 0.8rem;
+    border: none;
+    border-radius: 1.25rem;
+}
+
+input:focus{
+    border: none;
+    color: blueviolet;
+    font-size: larger;
+}
+
+.saveButton:hover{
+    background-color: blue;
+    color: white;
+    font-size: 1.3rem;
+    font-style: unset;
+    font-synthesis: style;
+    cursor: pointer;
+}
+
+table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: .5rem;
+    padding-bottom: 3rem;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.tblHeader{
+    padding-right: 3rem;
+    padding-left: 3rem;
+    
+}
+.tblHeaderTask{
+    padding-right: 2.9rem;
+    align-self: center;
+}
+.tblHeaderDate{
+    padding-right: 4rem;
+    padding-left: 2rem;
+}
+
+.rowNumber{
+    padding-right: 1rem;
+}
+
+td{
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+tbody>tr:nth-child(odd){
+    background-color: black;
+    color: white;
+}
+
+.deleteButton{
+    color: red;
+    font-size: larger;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    background-color: blueviolet;
+    padding: 1.25rem;
+}
+
+.print:hover{
+    cursor: pointer;
+    color: whitesmoke;
+    font-size: larger;
+}
+
+h1{
+    text-align: center;
+    color: blueviolet;
+}
+
+header>h3{
+    float: right;
+    padding-left: 20%;
+}
